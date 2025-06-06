@@ -1,0 +1,74 @@
+[
+    {
+        "id": "food",
+        "name": "Food & Dining",
+        "type": "expense",
+        "icon": "🍽️",
+        "budget": 0,
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+        "id": "transport",
+        "name": "Transportation",
+        "type": "expense",
+        "icon": "🚗",
+        "budget": 0,
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+        "id": "shopping",
+        "name": "Shopping",
+        "type": "expense",
+        "icon": "🛍️",
+        "budget": 0,
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+        "id": "utilities",
+        "name": "Utilities",
+        "type": "expense",
+        "icon": "💡",
+        "budget": 0,
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+        "id": "entertainment",
+        "name": "Entertainment",
+        "type": "expense",
+        "icon": "🎬",
+        "budget": 0,
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+        "id": "health",
+        "name": "Health & Medical",
+        "type": "expense",
+        "icon": "🏥",
+        "budget": 0,
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+        "id": "salary",
+        "name": "Salary",
+        "type": "income",
+        "icon": "💰",
+        "budget": 0,
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+        "id": "freelance",
+        "name": "Freelance",
+        "type": "income",
+        "icon": "💻",
+        "budget": 0,
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+        "id": "investments",
+        "name": "Investments",
+        "type": "income",
+        "icon": "📈",
+        "budget": 0,
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    }
+]

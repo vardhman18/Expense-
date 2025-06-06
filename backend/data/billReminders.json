@@ -1,0 +1,14 @@
+[
+  {
+    "id": "fd0aaffc-02ff-42e8-bacf-7b2ed6163445",
+    "name": "bhj",
+    "amount": "555",
+    "dueDate": "2025-06-05",
+    "category": "vhj",
+    "recurring": "monthly",
+    "notes": "",
+    "status": "paid",
+    "createdAt": "2025-06-05T21:33:06.304Z",
+    "lastUpdated": "2025-06-05T21:33:10.968Z"
+  }
+]

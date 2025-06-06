@@ -1,0 +1,32 @@
+[
+    {
+        "id": "salary",
+        "description": "Monthly Salary",
+        "amount": 50000,
+        "type": "income",
+        "category": "salary",
+        "frequency": "monthly",
+        "startDate": "2024-03-01",
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+        "id": "rent",
+        "description": "Rent Payment",
+        "amount": 15000,
+        "type": "expense",
+        "category": "utilities",
+        "frequency": "monthly",
+        "startDate": "2024-03-01",
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+        "id": "internet",
+        "description": "Internet Bill",
+        "amount": 1000,
+        "type": "expense",
+        "category": "utilities",
+        "frequency": "monthly",
+        "startDate": "2024-03-05",
+        "createdAt": "2024-03-15T00:00:00.000Z"
+    }
+]

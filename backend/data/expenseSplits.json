@@ -1,0 +1,20 @@
+[
+  {
+    "id": "56758e10-e939-45ca-8519-55e75a59161b",
+    "totalAmount": 12345,
+    "description": "hjoi",
+    "participants": [
+      "ghh",
+      "gh"
+    ],
+    "splitType": "equal",
+    "shares": {
+      "ghh": 6172.5,
+      "gh": 6172.5
+    },
+    "settledParticipants": [],
+    "status": "pending",
+    "createdAt": "2025-06-05T14:14:55.370Z",
+    "lastUpdated": "2025-06-05T14:14:55.370Z"
+  }
+]

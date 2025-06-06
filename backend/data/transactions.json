@@ -1762,5 +1762,122 @@
     "category": "housing",
     "date": "2025-06-06T00:00:00.000Z",
     "createdAt": "2025-06-06T10:59:30.106Z"
+  },
+  {
+    "id": "b3954278-e8d7-405a-98d9-c5e2fd42bdc4",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:17.690Z"
+  },
+  {
+    "id": "e8df2129-819a-4d6d-b108-fa8709ab9833",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:18.323Z"
+  },
+  {
+    "id": "3fa1f925-bc13-454f-82a3-826e770f76b1",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:18.553Z"
+  },
+  {
+    "id": "bbe27ff5-bc0c-4b29-bfa1-0c5e38f755e1",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:18.706Z"
+  },
+  {
+    "id": "486214e3-1a11-42cf-a6c6-159c2720b656",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:18.880Z"
+  },
+  {
+    "id": "46c9926c-0de9-4d8d-b5ee-02e545f4213b",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:19.004Z"
+  },
+  {
+    "id": "a62d418b-88af-4137-9ac9-97f65d7f976c",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:19.119Z"
+  },
+  {
+    "id": "65ecbf7c-2b4f-44b1-b302-1e58da50c468",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:19.284Z"
+  },
+  {
+    "id": "b9f4eb39-141a-46cc-9d02-e439f41d200b",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:19.471Z"
+  },
+  {
+    "id": "a7793225-3fba-4ff1-aa21-5fb303cd4285",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:19.652Z"
+  },
+  {
+    "id": "5ed7997e-4eae-4ff6-8b77-63ed229a6471",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:20.009Z"
+  },
+  {
+    "id": "a68c7331-877c-42dd-b2b6-af72e63833a7",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:20.189Z"
+  },
+  {
+    "id": "a1f2b3f6-98a1-4d8a-a5ee-f6308a77bcf5",
+    "description": "t78687",
+    "amount": 5567,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-06T00:00:00.000Z",
+    "createdAt": "2025-06-06T17:34:20.390Z"
   }
 ]

@@ -93,41 +93,37 @@ const Header = ({ user }) => {
                 </div>
 
                 {/* Mobile Menu */}
-                <div 
-                    className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-                        isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-                    }`}
-                >
-                    <div className="py-3 space-y-2">
-                        <nav className="flex flex-col gap-2">
-                            <NavLink to="/dashboard">Dashboard</NavLink>
-                            <NavLink to="/transactions">Transactions</NavLink>
-                            <NavLink to="/goals">Goals</NavLink>
-                            <NavLink to="/analytics">Analytics</NavLink>
-                            <NavLink to="/savings-goals">Savings</NavLink>
-                            <NavLink to="/bill-reminders">Bills</NavLink>
-                            <NavLink to="/expense-splits">Split Expenses</NavLink>
-                        </nav>
-                        
-                        {/* Mobile User Menu */}
-                        <div className="mt-4 pt-4 border-t border-gray-800/50">
-                            <div className="flex items-center justify-between px-4 py-2">
-                                <div className="text-sm text-gray-400">
-                                    {user?.email || 'Guest'}
-                                </div>
-                                <button
-                                    onClick={() => {
-                                        handleLogout();
-                                        setIsMobileMenuOpen(false);
-                                    }}
-                                    className="px-4 py-2 text-sm font-medium text-white bg-red-500 hover:bg-red-600 rounded-lg transition-colors"
-                                >
-                                    Logout
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+{isMobileMenuOpen && (
+<div className="fixed inset-0 z-40 bg-gray-900 flex flex-col justify-between md:hidden transition-all duration-300">    <div>
+      <div className="px-6 pt-6 pb-2">
+        <h2 className="text-xl font-bold text-white mb-4">BudgetBuddy</h2>
+        <nav className="flex flex-col gap-2">
+          <NavLink to="/dashboard">Dashboard</NavLink>
+          <NavLink to="/transactions">Transactions</NavLink>
+          <NavLink to="/goals">Goals</NavLink>
+          <NavLink to="/analytics">Analytics</NavLink>
+          <NavLink to="/savings-goals">Savings</NavLink>
+          <NavLink to="/bill-reminders">Bills</NavLink>
+          <NavLink to="/expense-splits">Split Expenses</NavLink>
+        </nav>
+      </div>
+    </div>
+    <div className="border-t border-gray-800/50 px-6 py-4 flex items-center justify-between">
+      <div className="text-sm text-gray-400">
+        {user?.email || 'Guest'}
+      </div>
+      <button
+        onClick={() => {
+          handleLogout();
+          setIsMobileMenuOpen(false);
+        }}
+        className="px-4 py-2 text-sm font-medium text-white bg-red-500 hover:bg-red-600 rounded-lg transition-colors"
+      >
+        Logout
+      </button>
+    </div>
+  </div>
+)}
             </div>
         </header>
     );

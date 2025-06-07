@@ -1879,5 +1879,131 @@
     "category": "other_expense",
     "date": "2025-06-06T00:00:00.000Z",
     "createdAt": "2025-06-06T17:34:20.390Z"
+  },
+  {
+    "id": "b5d366bd-1f3f-4fa9-ba26-dbdd88930ae2",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:05.285Z"
+  },
+  {
+    "id": "dd27a5ce-9a56-4c3c-8691-4c6cdc0ec47f",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:06.009Z"
+  },
+  {
+    "id": "f85b5201-2f70-4454-88a4-a535474b476c",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:06.241Z"
+  },
+  {
+    "id": "9a2ae1a7-fc55-4778-8e69-adaabfeb9030",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:06.478Z"
+  },
+  {
+    "id": "d3c62328-9579-46b0-a345-10133d9dc2c3",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:06.687Z"
+  },
+  {
+    "id": "41ab4853-2135-4e30-bbd6-a82105c80963",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:06.928Z"
+  },
+  {
+    "id": "715bc22d-7740-4880-ad33-5faffeac8e07",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:07.148Z"
+  },
+  {
+    "id": "48a0b44d-3120-4333-8165-0cd9999073de",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:07.962Z"
+  },
+  {
+    "id": "38128a29-03f8-4cf4-bb0c-09a7f3958cef",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:08.812Z"
+  },
+  {
+    "id": "8e4984af-07ce-4661-ba7d-f86874c6b43b",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:09.391Z"
+  },
+  {
+    "id": "402d7962-d2f8-407a-9f55-380307faabd1",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:09.557Z"
+  },
+  {
+    "id": "f87d7cf0-5169-421c-8a25-3e7d2385bddf",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:10.088Z"
+  },
+  {
+    "id": "cc1122ae-e9e2-4c50-a177-0131567429ca",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "income",
+    "category": "gifts_received",
+    "date": "2025-06-05T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:11.180Z"
+  },
+  {
+    "id": "6a216dfa-2054-4129-9ba7-a37103650784",
+    "description": "jgfjgkjh",
+    "amount": 10000,
+    "type": "expense",
+    "category": "gifts",
+    "date": "2025-06-07T00:00:00.000Z",
+    "createdAt": "2025-06-07T03:53:23.993Z"
   }
 ]

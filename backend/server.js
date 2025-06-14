@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const cookieParser = require('cookie-parser');
 const fs = require('fs');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
@@ -10,8 +11,12 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 // Middleware
-app.use(cors());
+app.use(cors({
+    origin: 'http://localhost:5173',
+    credentials: true
+}));
 app.use(express.json());
+app.use(cookieParser());
 
 // Ensure data directory exists
 const dataDir = path.join(__dirname, 'data');
@@ -476,12 +481,21 @@ app.get('/api/analytics/trends', (req, res) => {
     }
 });
 
+// Add logout route if not present
+app.post('/api/auth/logout', (req, res) => {
+    res.clearCookie('token');
+    res.json({ message: 'Logged out successfully' });
+});
+
 // Error handling middleware
 app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).json({ message: 'Something went wrong!' });
 });
 
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-}); 
+if (require.main === module) {
+    app.listen(PORT, () => {
+        console.log(`Server running on http://localhost:${PORT}`);
+    });
+}
+module.exports = app; 

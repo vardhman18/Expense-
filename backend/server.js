@@ -6,6 +6,9 @@ const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 const transactionRoutes = require('./routes/transactions');
 const authRoutes = require('./routes/auth');
+const jwt = require('jsonwebtoken');
+const JWT_SECRET = 'your-super-secret-key-change-in-production';
+const TOKEN_EXPIRY = '24h';
 
 const app = express();
 const PORT = process.env.PORT || 5001;

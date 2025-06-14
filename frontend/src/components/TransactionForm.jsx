@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { addTransaction } from '../config/api';
+import { addTransaction, formatCurrency } from '../config/api';
 import { toast } from 'react-hot-toast';
 import { categories } from '../utils/categories';
 

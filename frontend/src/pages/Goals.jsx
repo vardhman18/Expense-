@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { toast } from 'react-hot-toast';
 import Header from '../components/Header';
 import Modal from '../components/Modal';
-import { getFinancialGoals, getTransactions } from '../config/api';
+import { getFinancialGoals, getTransactions, formatCurrency, formatCurrencyINR, formatCurrencyUSD, convertINRtoUSD } from '../config/api';
 
 const Goals = () => {
     const [goals, setGoals] = useState([]);
@@ -284,15 +284,7 @@ const Goals = () => {
                                                 {view === 'grid' && (
                                                     <div className="text-right">
                                                         <div className="text-lg font-medium text-blue-400">
-                                                            {new Intl.NumberFormat('en-IN', {
-                                                                style: 'currency',
-                                                                currency: 'INR',
-                                                                maximumFractionDigits: 0
-                                                            }).format(goal.current)} / {new Intl.NumberFormat('en-IN', {
-                                                                style: 'currency',
-                                                                currency: 'INR',
-                                                                maximumFractionDigits: 0
-                                                            }).format(goal.target)}
+                                                            {formatCurrencyINR(goal.current)} / {formatCurrencyUSD(convertINRtoUSD(goal.current))} <span className="text-gray-400">/</span> {formatCurrencyINR(goal.target)} / {formatCurrencyUSD(convertINRtoUSD(goal.target))}
                                                         </div>
                                                         <div className="text-sm text-gray-400 mt-1">
                                                             Due by {new Date(goal.deadline).toLocaleDateString()}

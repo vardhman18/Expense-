@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { toast } from 'react-hot-toast';
-import { getRecurringTransactions } from '../config/api';
+import { getRecurringTransactions, formatCurrency } from '../config/api';
 
 const RecurringTransactions = ({ recurring = [], onUpdate }) => {
     if (!recurring.length) {
@@ -37,11 +37,7 @@ const RecurringTransactions = ({ recurring = [], onUpdate }) => {
                                     ? 'text-red-400' 
                                     : 'text-green-400'
                             }`}>
-                                {new Intl.NumberFormat('en-IN', {
-                                    style: 'currency',
-                                    currency: 'INR',
-                                    maximumFractionDigits: 0
-                                }).format(transaction.amount)}
+                                {formatCurrency(transaction.amount)}
                             </div>
                         </div>
                         <div className="mt-4 flex justify-end gap-2">

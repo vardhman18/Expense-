@@ -1,6 +1,7 @@
 import React, { useMemo } from 'react';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 import { Doughnut } from 'react-chartjs-2';
+import { formatCurrency } from '../config/api';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
@@ -74,11 +75,7 @@ const SpendingSummary = ({ transactions = [] }) => {
                         return data.labels.map((label, i) => {
                             const value = data.datasets[0].data[i];
                             const percentage = ((value / total) * 100).toFixed(1);
-                            const formattedValue = new Intl.NumberFormat('en-IN', {
-                                style: 'currency',
-                                currency: 'INR',
-                                maximumFractionDigits: 0
-                            }).format(value);
+                            const formattedValue = formatCurrency(value);
                             
                             return {
                                 text: `${label} (${percentage}%) - ${formattedValue}`,
@@ -96,16 +93,40 @@ const SpendingSummary = ({ transactions = [] }) => {
                         const value = context.raw;
                         const total = context.dataset.data.reduce((sum, val) => sum + val, 0);
                         const percentage = ((value / total) * 100).toFixed(1);
-                        const formattedValue = new Intl.NumberFormat('en-IN', {
-                            style: 'currency',
-                            currency: 'INR',
-                            maximumFractionDigits: 0
-                        }).format(value);
+                        const formattedValue = formatCurrency(value);
                         return `${context.label}: ${formattedValue} (${percentage}%)`;
                     }
                 }
             }
         }
+    };
+
+    // Custom legend rendering
+    const { labels, datasets } = chartData;
+    const total = datasets[0].data.reduce((sum, val) => sum + val, 0);
+    const legendItems = labels.map((label, i) => {
+        const value = datasets[0].data[i];
+        const percentage = ((value / total) * 100).toFixed(1);
+        const formattedINR = formatCurrency(value);
+        const formattedUSD = formatCurrency(value / 83); // Use your conversion rate
+        const color = datasets[0].backgroundColor[i];
+        return (
+            <div key={label} className="flex items-center mb-2 flex-wrap">
+                <span className="inline-block w-4 h-4 rounded mr-2" style={{ backgroundColor: color }}></span>
+                <span className="mr-2 font-medium">{label}</span>
+                <span className="mr-2 text-gray-400">({percentage}%)</span>
+                <span className="mr-2">{formattedINR}</span>
+                <span className="text-gray-400">/ {formattedUSD}</span>
+            </div>
+        );
+    });
+
+    const customOptions = {
+        ...options,
+        plugins: {
+            ...options.plugins,
+            legend: { display: false }, // Hide ChartJS legend
+        },
     };
 
     if (!transactions.length) {
@@ -124,7 +145,10 @@ const SpendingSummary = ({ transactions = [] }) => {
             <h3 className="text-lg font-medium text-gray-200">Spending by Category</h3>
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-xl p-4 border border-gray-700/50">
                 <div className="h-[300px]">
-                    <Doughnut data={chartData} options={options} />
+                    <Doughnut data={chartData} options={customOptions} />
+                </div>
+                <div className="mt-6 flex flex-col flex-wrap gap-1">
+                    {legendItems}
                 </div>
             </div>
         </div>

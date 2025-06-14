@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react';
 import { format } from 'date-fns';
+import { formatCurrency } from '../config/api';
 
 const MonthlySummary = ({ transactions }) => {
   const monthlySummaries = useMemo(() => {
@@ -30,14 +31,6 @@ const MonthlySummary = ({ transactions }) => {
       new Date(b.month) - new Date(a.month)
     );
   }, [transactions]);
-
-  const formatCurrency = (amount) => {
-    return new Intl.NumberFormat('en-IN', {
-      style: 'currency',
-      currency: 'INR',
-      maximumFractionDigits: 0
-    }).format(amount);
-  };
 
   return (
     <div className="space-y-4">

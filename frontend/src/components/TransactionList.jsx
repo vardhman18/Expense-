@@ -15,13 +15,8 @@ const TransactionList = ({
     onPageChange
 }) => {
     const formatAmount = (amount, type) => {
-        const formattedAmount = new Intl.NumberFormat('en-IN', {
-            style: 'currency',
-            currency: 'INR',
-            maximumFractionDigits: 0
-        }).format(amount);
-        
-        return type === 'expense' ? `-${formattedAmount}` : formattedAmount;
+        const formatted = formatCurrency(amount);
+        return type === 'expense' ? `- ${formatted}` : formatted;
     };
 
     const formatDate = (dateString) => {

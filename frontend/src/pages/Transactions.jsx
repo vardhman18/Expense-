@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import TransactionList from '../components/TransactionList';
 import TransactionForm from '../components/TransactionForm';
 import Modal from '../components/Modal';
-import { getTransactions, addTransaction, updateTransaction, deleteTransaction, getCategories } from '../config/api';
+import { getTransactions, addTransaction, updateTransaction, deleteTransaction, getCategories, formatCurrency } from '../config/api';
 
 const Transactions = () => {
     const [transactions, setTransactions] = useState([]);
@@ -286,7 +286,11 @@ const Transactions = () => {
                 title={editingTransaction ? 'Edit Transaction' : 'Add Transaction'}
             >
                 <TransactionForm
-                    onTransactionAdded={handleTransactionSubmit}
+                    onTransactionAdded={() => {
+                        setIsFormVisible(false);
+                        setEditingTransaction(null);
+                        loadData();
+                    }}
                     onClose={() => {
                         setIsFormVisible(false);
                         setEditingTransaction(null);

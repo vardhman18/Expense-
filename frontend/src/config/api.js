@@ -6,13 +6,35 @@ const JWT_STORAGE_KEY = 'budgetbuddy_token';
 const USER_STORAGE_KEY = 'budgetbuddy_user';
 
 // Currency formatting helper
-export const formatCurrency = (amount) => {
+const USD_CONVERSION_RATE = 83; // 1 USD = 83 INR
+
+export const formatCurrencyINR = (amount) => {
     const formattedAmount = new Intl.NumberFormat('en-IN', {
-        style: 'decimal',
+        style: 'currency',
+        currency: 'INR',
         minimumFractionDigits: 2,
         maximumFractionDigits: 2
     }).format(Math.abs(amount));
-    return `₹${formattedAmount}`;
+    return formattedAmount;
+};
+
+export const formatCurrencyUSD = (amount) => {
+    const formattedAmount = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2
+    }).format(Math.abs(amount));
+    return formattedAmount;
+};
+
+export const convertINRtoUSD = (amountInINR) => {
+    return amountInINR / USD_CONVERSION_RATE;
+};
+
+// Unified currency display helper
+export const formatCurrency = (amount) => {
+    return `${formatCurrencyINR(amount)} / ${formatCurrencyUSD(convertINRtoUSD(amount))}`;
 };
 
 const API_ENDPOINTS = {

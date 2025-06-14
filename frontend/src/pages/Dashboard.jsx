@@ -17,7 +17,8 @@ import {
   getBudgetAnalytics,
   getUser,
   logout,
-  addTransaction
+  addTransaction,
+  formatCurrency
 } from '../config/api';
 import RecentActivity from '../components/RecentActivity';
 import SpendingChart from '../components/SpendingChart';
@@ -112,15 +113,6 @@ const Dashboard = () => {
     } catch (error) {
       toast.error(error.message || 'Failed to add transaction');
     }
-  };
-
-  const formatCurrency = (amount) => {
-    const formattedAmount = new Intl.NumberFormat('en-IN', {
-      style: 'decimal',
-      minimumFractionDigits: 2,
-      maximumFractionDigits: 2
-    }).format(Math.abs(amount));
-    return `₹${formattedAmount}`;
   };
 
   const calculateSummary = () => {

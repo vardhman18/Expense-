@@ -9,13 +9,17 @@ const authRoutes = require('./routes/auth');
 const jwt = require('jsonwebtoken');
 const JWT_SECRET = 'your-super-secret-key-change-in-production';
 const TOKEN_EXPIRY = '24h';
+const API_BASE_URL = '/api';
 
 const app = express();
 const PORT = process.env.PORT || 5001;
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: [
+        'http://localhost:5173',
+        'https://expense-six-roan.vercel.app'
+    ],
     credentials: true
 }));
 app.use(express.json());

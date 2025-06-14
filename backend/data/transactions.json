@@ -2005,5 +2005,410 @@
     "category": "gifts",
     "date": "2025-06-07T00:00:00.000Z",
     "createdAt": "2025-06-07T03:53:23.993Z"
+  },
+  {
+    "id": "b88fb5ab-83d1-4dfd-a9d4-48ecf1489054",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:40.503Z"
+  },
+  {
+    "id": "7dee989b-e7a2-40d6-993e-a8e454424b8b",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:41.227Z"
+  },
+  {
+    "id": "e2523b83-5aee-4d5b-8141-98c711b8e908",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:41.596Z"
+  },
+  {
+    "id": "9f36c01e-87e4-474f-8344-c7b1cc086d3a",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:41.768Z"
+  },
+  {
+    "id": "1771ca41-3bb5-4ba4-ad5c-86a62d252098",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:41.983Z"
+  },
+  {
+    "id": "904ef818-03b1-4229-ab92-5f44874b82ee",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:42.171Z"
+  },
+  {
+    "id": "98563f4f-01dc-4588-b25c-153cb197b618",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:42.355Z"
+  },
+  {
+    "id": "fdbf4a4a-e655-4c9e-a6cf-45dce9e8efcc",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:42.535Z"
+  },
+  {
+    "id": "ba874e67-3c62-41a7-bd1d-2df3a0833355",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:42.751Z"
+  },
+  {
+    "id": "4c1660e7-85b1-4a44-8f83-a7e6bb60fe60",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:43.390Z"
+  },
+  {
+    "id": "2bc74352-fa0e-4948-aa38-045b174d80ce",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "housing",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:23:43.909Z"
+  },
+  {
+    "id": "88ec7205-5ec6-4430-a3e4-884adbe78029",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "bills",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:34:16.325Z"
+  },
+  {
+    "id": "1c8e16ea-a667-4230-aaf9-23268ad55de8",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "bills",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:34:17.247Z"
+  },
+  {
+    "id": "da074684-6977-41dd-8fee-75fa115d0d65",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:39:04.829Z"
+  },
+  {
+    "id": "593e4376-0baf-496c-9b73-9445fdd687c2",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:39:05.560Z"
+  },
+  {
+    "id": "aae3fc1d-e4aa-4db5-960a-005c4554e5ba",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:39:05.753Z"
+  },
+  {
+    "id": "e2073028-a19b-47cd-a4c7-39f286fd4db8",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:39:06.128Z"
+  },
+  {
+    "id": "2b1dee87-6dfa-403b-a0de-55151e20d629",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "other_expense",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:39:06.317Z"
+  },
+  {
+    "id": "f2a3b1a5-98cb-46b0-8dab-40aa42f1bbb7",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:43:50.888Z"
+  },
+  {
+    "id": "2efc77e4-400c-4a68-89f2-57e750892d91",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:43:51.823Z"
+  },
+  {
+    "id": "39ef8fae-a07e-4f12-b6da-06d0a91e1394",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:43:52.093Z"
+  },
+  {
+    "id": "a238c1bb-13ce-4d5c-899b-b53a4569b645",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:43:52.293Z"
+  },
+  {
+    "id": "d1b42ba6-f7d9-4052-b5ce-b075e9e313bd",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:43:52.498Z"
+  },
+  {
+    "id": "826c8819-bd7a-4bd0-b64d-639a0adbf513",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:43:52.693Z"
+  },
+  {
+    "id": "9b909a6f-ae37-447d-b50a-d7599a2d091a",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:43:52.893Z"
+  },
+  {
+    "id": "ef8db576-3c90-4133-a8d7-a552e19714db",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:43:53.096Z"
+  },
+  {
+    "id": "591364ae-1a19-490b-bd16-cc91a39a584b",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:43:53.305Z"
+  },
+  {
+    "id": "1435546d-301b-40d8-a3ac-346814e8395e",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "gifts",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:46:57.535Z"
+  },
+  {
+    "id": "320d1383-fbd7-4d86-8832-b84788d27af7",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "gifts",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:46:58.242Z"
+  },
+  {
+    "id": "5d0b324c-fe25-46c1-a112-1f88797013c0",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "gifts",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:46:58.452Z"
+  },
+  {
+    "id": "0e688f8a-3e4a-4a78-8561-bd88e407f1e4",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "gifts",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:46:58.632Z"
+  },
+  {
+    "id": "a7ddc757-d733-4830-9e8a-7fd5537e40d1",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "gifts",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:46:58.926Z"
+  },
+  {
+    "id": "316318b9-3a13-448c-8390-59ace5784380",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "gifts",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:46:59.128Z"
+  },
+  {
+    "id": "5d14612b-d2fd-485d-b3cf-1a8bcdfad9ba",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "gifts",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:46:59.443Z"
+  },
+  {
+    "id": "94ce5d64-aa2c-4b26-8af0-2f86118a9895",
+    "description": "hghhjb",
+    "amount": 2345,
+    "type": "expense",
+    "category": "gifts",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:46:59.681Z"
+  },
+  {
+    "id": "97fcdcf6-6612-4c5c-a825-3346ed7d1bc5",
+    "description": "uii",
+    "amount": 123,
+    "type": "expense",
+    "category": "personal",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:52:48.605Z"
+  },
+  {
+    "id": "bf592939-f2e6-4e0c-a501-fd47dea40c68",
+    "description": "uii",
+    "amount": 123,
+    "type": "expense",
+    "category": "personal",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:52:49.223Z"
+  },
+  {
+    "id": "db1ff69d-f7f6-402d-97a7-bef1d05f2e79",
+    "description": "uii",
+    "amount": 123,
+    "type": "expense",
+    "category": "personal",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:52:49.783Z"
+  },
+  {
+    "id": "24082ab7-e635-4f28-8e25-fd6438037f8a",
+    "description": "uii",
+    "amount": 123,
+    "type": "expense",
+    "category": "personal",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:52:50.452Z"
+  },
+  {
+    "id": "d051f7a1-4f23-4923-b594-d2d046a5c279",
+    "description": "uii",
+    "amount": 123,
+    "type": "expense",
+    "category": "personal",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:52:51.360Z"
+  },
+  {
+    "id": "06084450-72b3-40ce-856f-0f776ed86b31",
+    "description": "uii",
+    "amount": 123,
+    "type": "expense",
+    "category": "personal",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:52:52.390Z"
+  },
+  {
+    "id": "e39be336-d573-4966-8d5b-7c903224436b",
+    "description": "uii",
+    "amount": 123,
+    "type": "expense",
+    "category": "personal",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:52:52.960Z"
+  },
+  {
+    "id": "0f1c8d7d-f938-4327-bec8-22457e72b083",
+    "description": "uii",
+    "amount": 123,
+    "type": "expense",
+    "category": "personal",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:52:53.480Z"
+  },
+  {
+    "id": "a8ebd0cb-bf86-4ae2-b964-be1c28c3350b",
+    "description": "uii",
+    "amount": 123,
+    "type": "expense",
+    "category": "personal",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:52:53.965Z"
+  },
+  {
+    "id": "d5080958-616f-4733-9e80-47098a9ee2e6",
+    "description": "uii",
+    "amount": 123,
+    "type": "expense",
+    "category": "personal",
+    "date": "2025-06-14T00:00:00.000Z",
+    "createdAt": "2025-06-14T16:52:54.696Z"
   }
 ]

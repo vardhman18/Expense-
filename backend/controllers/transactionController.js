@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 const { getTransactions, saveTransactions } = require('../utils/storage');
-const { validateAmount, parseRupees, formatToRupees } = require('../utils/currency');
+const { validateAmount, parseRupees, formatToRupees, formatToUSD, convertINRtoUSD } = require('../utils/currency');
 
 const dataDir = path.join(__dirname, '..', 'data');
 const transactionsFile = path.join(dataDir, 'transactions.json');
@@ -61,7 +61,7 @@ const validateTransaction = (transaction) => {
 exports.getAllTransactions = async (req, res) => {
     try {
         const transactions = await getTransactions();
-        res.json(transactions);
+        res.json({ transactions });
     } catch (error) {
         console.error('Error getting transactions:', error);
         res.status(500).json({ message: 'Error reading transactions' });
@@ -82,7 +82,7 @@ exports.addTransaction = async (req, res) => {
         transactions.push(newTransaction);
         await saveTransactions(transactions);
         
-        res.status(201).json(newTransaction);
+        res.status(201).json({ transaction: newTransaction });
     } catch (error) {
         console.error('Error adding transaction:', error);
         res.status(400).json({ message: error.message || 'Error adding transaction' });
@@ -188,10 +188,18 @@ exports.getMonthlySummary = async (req, res) => {
             ? (summary.netSavings / summary.totalIncome) * 100 
             : 0;
 
-        // Format amounts in rupees
+        // Format amounts in rupees and dollars
         summary.formattedTotalIncome = formatToRupees(summary.totalIncome);
         summary.formattedTotalExpenses = formatToRupees(summary.totalExpenses);
         summary.formattedNetSavings = formatToRupees(summary.netSavings);
+
+        // Add USD values
+        summary.totalIncomeUSD = convertINRtoUSD(summary.totalIncome);
+        summary.totalExpensesUSD = convertINRtoUSD(summary.totalExpenses);
+        summary.netSavingsUSD = convertINRtoUSD(summary.netSavings);
+        summary.formattedTotalIncomeUSD = formatToUSD(summary.totalIncomeUSD);
+        summary.formattedTotalExpensesUSD = formatToUSD(summary.totalExpensesUSD);
+        summary.formattedNetSavingsUSD = formatToUSD(summary.netSavingsUSD);
 
         res.json(summary);
     } catch (error) {

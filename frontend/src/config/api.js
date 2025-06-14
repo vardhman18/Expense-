@@ -1,7 +1,7 @@
 import { toast } from 'react-hot-toast';
 
 // API Configuration
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
+const API_BASE_URL = '/api'; // NOT http://localhost:5001/api
 const JWT_STORAGE_KEY = 'budgetbuddy_token';
 const USER_STORAGE_KEY = 'budgetbuddy_user';
 

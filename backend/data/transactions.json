@@ -16,5 +16,41 @@
     "category": "food",
     "date": "2025-06-15T00:00:00.000Z",
     "createdAt": "2025-06-15T08:01:54.382Z"
+  },
+  {
+    "id": "4c4d52c1-2604-4d75-9e3a-e266c4eb1690",
+    "description": "fooded",
+    "amount": 4577,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-15T00:00:00.000Z",
+    "createdAt": "2025-06-15T08:13:59.399Z"
+  },
+  {
+    "id": "4c4d52c1-2604-4d75-9e3a-e266c4eb1690",
+    "description": "fooded",
+    "amount": 4577,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-15T00:00:00.000Z",
+    "createdAt": "2025-06-15T08:13:59.427Z"
+  },
+  {
+    "id": "7ae0f1f5-70e6-4555-be1a-387377d90577",
+    "description": "edu",
+    "amount": 10000,
+    "type": "expense",
+    "category": "transport",
+    "date": "2025-06-15T00:00:00.000Z",
+    "createdAt": "2025-06-15T08:14:24.244Z"
+  },
+  {
+    "id": "7ae0f1f5-70e6-4555-be1a-387377d90577",
+    "description": "edu",
+    "amount": 10000,
+    "type": "expense",
+    "category": "transport",
+    "date": "2025-06-15T00:00:00.000Z",
+    "createdAt": "2025-06-15T08:14:24.271Z"
   }
 ]

@@ -1,11 +1,20 @@
 [
   {
-    "id": "cc1122ae-e9e2-4c50-a177-0131567429ca",
-    "description": "jgfjgkjh",
+    "id": "17a4a060-5764-4fca-9796-124b589bc638",
+    "description": "happy12",
     "amount": 10000,
-    "type": "income",
-    "category": "gifts_received",
-    "date": "2025-06-05T00:00:00.000Z",
-    "createdAt": "2025-06-07T03:53:11.180Z"
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-15T00:00:00.000Z",
+    "createdAt": "2025-06-15T08:01:54.345Z"
+  },
+  {
+    "id": "17a4a060-5764-4fca-9796-124b589bc638",
+    "description": "happy12",
+    "amount": 10000,
+    "type": "expense",
+    "category": "food",
+    "date": "2025-06-15T00:00:00.000Z",
+    "createdAt": "2025-06-15T08:01:54.382Z"
   }
 ]
